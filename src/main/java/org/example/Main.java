@@ -7,12 +7,12 @@ public class Main {
     //   auto.MostrarInformacion();
     // Vehiculo moto = new Vehiculo("Kia",2);
 
-    Camion camion = new Camion();
+/*    Camion camion = new Camion();
     Moto moto = new Moto();
 
     camion.ArrancaVehiculo();
-    moto.ArrancaVehiculo();
-
-
+    moto.ArrancaVehiculo();*/
+    Excepciones ex = new Excepciones();
+    ex.LanzarErrores();
     }
 }
